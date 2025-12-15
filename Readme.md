@@ -80,7 +80,7 @@ Installation & Setup
 
 Option 1: Console Application (Recommended)
 
-1. Clone or download** the project files
+1. Clone or download the project files
 
 2. Create the project structure:
    ```bash
@@ -159,6 +159,7 @@ Found 2 student(s):
 ID: 101, Name: John Doe, Age: 21, Dept: Computer Science, Avg Marks: 87.50
 ID: 105, Name: Johnny Smith, Age: 19, Dept: Mechanical, Avg Marks: 82.33
 ```
+
 
 
 
