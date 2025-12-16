@@ -71,24 +71,6 @@ StudentManagement/
 └── README.md                     # This file
 ```
 
-Installation & Setup : Console Application (Recommended)
-
-1. Clone or download the project files
-
-2. Create the project structure:
-   ```bash
-   mkdir StudentManagement
-   cd StudentManagement
-   dotnet new console
-   ```
-
-3. Copy all `.cs` files into the project directory
-
-4. Run the application:
-   ```bash
-   dotnet run
-   ```
-
 
 Usage Guide
 
@@ -152,6 +134,7 @@ Found 2 student(s):
 ID: 101, Name: John Doe, Age: 21, Dept: Computer Science, Avg Marks: 87.50
 ID: 105, Name: Johnny Smith, Age: 19, Dept: Mechanical, Avg Marks: 82.33
 ```
+
 
 
 
