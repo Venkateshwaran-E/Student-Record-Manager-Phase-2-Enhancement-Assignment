@@ -15,7 +15,8 @@ class Program
         {
             try
             {
-                Console.WriteLine("\n=== Student Management System - Enhanced ===");
+
+                Console.WriteLine("\n--- Student Management System - Enhanced ---");
                 Console.WriteLine("1.  Add Student");
                 Console.WriteLine("2.  View All Students");
                 Console.WriteLine("3.  Search Student by ID");
@@ -128,7 +129,7 @@ class Program
             if (!service.AddStudent(student))
                 Console.WriteLine("Error: Student ID already exists.");
             else
-                Console.WriteLine("✓ Student added successfully.");
+                Console.WriteLine(" Student added successfully.");
         }
         catch (ArgumentException ex)
         {
@@ -195,7 +196,7 @@ class Program
             if (topper == null)
                 Console.WriteLine("\nNo students available.");
             else
-                Console.WriteLine($"\n🏆 Topper: {topper}");
+                Console.WriteLine($"\n Topper: {topper}");
         }
         catch (Exception ex)
         {
@@ -258,7 +259,7 @@ class Program
 
             var updatedStudent = new Student(newId, newName, newAge, newDept, newMarks);
             if (service.UpdateStudent(id, updatedStudent))
-                Console.WriteLine("✓ Student updated successfully.");
+                Console.WriteLine(" Student updated successfully.");
             else
                 Console.WriteLine("Failed to update student.");
         }
@@ -299,7 +300,7 @@ class Program
             if (confirmation?.Trim().ToLower() == "yes")
             {
                 if (service.DeleteStudent(id))
-                    Console.WriteLine("✓ Student deleted successfully.");
+                    Console.WriteLine("Student deleted successfully.");
                 else
                     Console.WriteLine("Failed to delete student.");
             }
